@@ -15,7 +15,7 @@ provider "aws" {
 }
 
 # Resource Block
-resource "aws_instance" "ec2demo" {
+resource "aws_instance" "Test-server" {
   ami           = "ami-04980462b81b515f6" # Amazon Linux in us-east-1, update as per your region
   instance_type = "t3.micro"
 }
